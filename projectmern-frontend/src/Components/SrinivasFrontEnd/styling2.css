@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 18%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .Aboutcard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .Aboutcontainer {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .Abouttitle {
+    text-align: center;
+    color: rgb(207, 24, 24);
+  }
+  
+  .Aboutbutton {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: rgb(124, 30, 30);
+    background-color: #474e5d;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  /* img {
+    border-radius: 50%;
+    float:left;
+    border:2px solid ;
+    margin-right :10px ;
+    max-width: fit-content;
+  } */
+
+  
+  .Aboutbutton:hover {
+    color: red;
+  }
+  

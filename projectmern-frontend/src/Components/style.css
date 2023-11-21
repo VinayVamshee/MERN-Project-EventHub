@@ -1,0 +1,262 @@
+@font-face {
+  font-family: AppleChancery;
+  src: url(./Fonts/Apple\ Chancery.ttf);
+}
+
+/* .NavigationBar {
+  border-end-end-radius: 10px;
+  border-end-start-radius: 10px; 
+} */
+
+.NavItems {
+  padding: 5px;
+  gap: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.Logo {
+  max-width: 250px;
+  height: 50px;
+  width: 21%;
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+}
+
+.NavButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 69%;
+  gap: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.UserLogin {
+  border-radius: 10px;
+  height: 50px;
+  width: 250px;
+  padding: 5px;
+  gap: 15px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Home {
+  /* margin-top: 60px; */
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+/* .footer {
+background-color: #717070;
+border-top: 1px solid black ;
+} */
+
+.EventsNow {
+  padding: 5px;
+  margin: 5px;
+}
+
+.EventsUpcoming {
+  padding: 5px;
+  margin: 5px;
+}
+
+.Event-hover {
+  margin: 5px;
+  transition: ease-in-out 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Event-hover:hover {
+  transform: scale(1.03);
+  transition: ease-in-out 0.5s;
+}
+
+.Register {
+  height: 810px;
+  padding: 100px;
+  /* background-color: #FF033E; */
+  background-image: linear-gradient(#d14545, #ffd045);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.RegisterForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 500px;
+}
+
+.AddEvent-Sub {
+  display: flex;
+  justify-content: center;
+  font-family: monospace;
+  gap: 25px;
+}
+
+.EventsInfo {
+  padding: 105px;
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  background-image: linear-gradient(135deg, #f4530c, rgb(250, 179, 171));
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Info-Sub {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: x-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.Info-Details {
+  font-family: fantasy;
+  font-weight: 600;
+}
+
+.BuyTicketsForm {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+}
+
+.Flipcontainer {
+  height: 340px;
+  perspective: 800px;
+}
+
+.Flipcontainer:hover > .Flipcard {
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+
+.Flipcard {
+  height: 100%;
+  position: relative;
+  transition: transform 1500ms;
+  transform-style: preserve-3d;
+}
+
+.frontimg,
+.backimg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.backimg {
+  transform: rotateY(180deg);
+}
+
+.column {
+  float: left;
+  width: 320px;
+  height: 650px;
+  margin-bottom: 16px;
+  padding: 5px;
+}
+
+.Aboutcard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 620px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+}
+
+.Aboutcontainer {
+  padding: 5px;
+}
+
+.carddescription {
+  height: 160px;
+}
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.Abouttitle {
+  text-align: center;
+  color: rgb(207, 24, 24);
+}
+
+.Aboutbutton {
+  display: inline-block;
+  margin: px;
+  padding: 8px;
+  color: white;
+  background-color: rgb(207, 24, 24);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.Aboutbutton:hover {
+  color: black;
+}
+
+.Section_top {
+  overflow: hidden;
+  position: relative;
+  /* background-image: url("https://aicontentfy.com/hubfs/Blog/a7a37a22-ac1b-48bc-a621-74d3f74529c4.jpg"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: change 30s infinite ease-in-out;
+}
+
+@keyframes change {
+  0% {
+    background-image: url("https://wallpapercave.com/wp/wp8364419.jpg");
+  }
+  20% {
+    background-image: url("https://wallpapercave.com/wp/wp9449565.png");
+  }
+  40% {
+    background-image: url("https://www.itl.cat/pngfile/big/145-1452470_minimalist-wallpaper-259568-minimalist-solar-system.jpg");
+  }
+  60% {
+    background-image: url("https://wallpapers.com/images/hd/minimalistic-melody-piano-in-monochrome-woaqfcd7d2dqpf4l.jpg");
+  }
+  80% {
+    background-image: url("https://cdn.wallpapersafari.com/52/9/auIMXm.jpg");
+  }
+  100% {
+    background-image: url("https://cdn.lifehack.org/wp-content/uploads/2013/04/54-1024x576.jpg");
+  }
+}
